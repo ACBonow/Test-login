@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: login-api  # Define o nome da aplicação como login-api.
+  jpa:
+    hibernate:
+      ddl-auto: create  # Configura o Hibernate para criar automaticamente o esquema do banco de dados na inicialização.
+  datasource:
+    url: jdbc:h2:mem:usersdb  # Configura a URL da fonte de dados para um banco de dados H2 em memória.
+    driver-class-name: org.h2.Driver  # Define a classe do driver do banco de dados.
+    username: sa  # Define o nome de usuário para a conexão com o banco de dados.
+    password: password  # Define a senha para a conexão com o banco de dados.
+  h2:
+    console:
+      enabled: true  # Habilita o console H2.
+      settings:
+        trace: false  # Desabilita o rastreamento no console H2.
+        web-allow-others: false  # Não permite que outros acessem o console H2.
+      path: /h2-console  # Define o caminho para o console H2.
+
+app:
+  cors:
+    allowed-origins: http://localhost:3000  # Define as origens permitidas para solicitações CORS.
+
+logging:
+  level:
+    org.springframework.security: DEBUG  # Define o nível de log para o Spring Security como DEBUG.
