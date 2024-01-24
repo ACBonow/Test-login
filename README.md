@@ -53,14 +53,14 @@
 <h1>Endpoints</h1>
 <p>Os seguintes endpoints estão disponíveis neste projeto:</p>
 
-<h1>Auth Controller</h1>
+<h3>Auth Controller</h3>
 <ul>
   <li><code>PUT /auth/recovery-password</code>: Recupera a senha de um usuário.</li>
   <li><code>POST /auth/signup</code>: Cria um novo usuário.</li>
   <li><code>POST /auth/authenticate</code>: Autentica um usuário existente.</li>
 </ul>
 
-<h1>User Controller</h1>
+<h3>User Controller</h3>
 <ul>
   <li><code>PUT /api/users/change-role/{email}/{newRole}</code>: Altera a função de um usuário.</li>
   <li><code>GET /api/users</code>: Retorna todos os usuários.</li>
@@ -69,7 +69,7 @@
   <li><code>GET /api/users/me</code>: Retorna o usuário atualmente autenticado.</li>
 </ul>
 
-<h1>Public Controller</h1>
+<h3>Public Controller</h2>
 <ul>
   <li><code>GET /public/numberOfUsers</code>: Retorna o número total de usuários.</li>
 </ul>
