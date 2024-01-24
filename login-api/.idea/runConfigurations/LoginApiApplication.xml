@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="LoginApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ALTERNATIVE_JRE_PATH" value="17" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <module name="Login-api" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.arthurbonow.loginapi.BookApiApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
