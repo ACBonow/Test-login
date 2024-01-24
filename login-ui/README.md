@@ -12,8 +12,7 @@
     <li>Criação de novos usuários</li>
     <li>Validação de email</li>
     <li>Validação de senha</li>
-  </ul>
-  <h2>Tecnologias Utilizadas</h2>
+  </ul><h2>Tecnologias Utilizadas</h2>
   <ul>
     <li>JavaScript</li>
     <li>React</li>
