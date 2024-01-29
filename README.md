@@ -47,7 +47,7 @@
 
 <h1>Application URL's</h1>
     	<p>book-api	http://localhost:8080/swagger-ui.html	</p>
-	<p>book-ui	http://localhost:3000		          crenciais(admin/admin, user/user or signing up a new user)</p>
+	<p>book-ui	http://localhost:3000		          crendenciais(master@mycompany.com/master, user@mycompany.com/user or signing up a new user)</p>
 	<p>banco de dados http://localhost:8080/h1-console 	  crenciais(user: sa password: password) </p>
 
 <h1>Endpoints</h1>
